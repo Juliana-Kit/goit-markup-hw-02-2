@@ -1,0 +1,73 @@
+
+
+
+
+:root{
+    --accent-color: #2196F3;
+    --title-color:#212121;
+    --text-color:#757575;
+    --footer-text-color: rgba(255, 255, 255, 0.6);
+
+}
+
+body{
+    background-color: #ffffff;
+}
+
+
+.list{
+    list-style:none;
+}
+
+.accent{
+    color: var(--accent-color);
+}
+
+.current{
+    color:var(--accent-color) ;
+}
+
+/* Header */
+.logo{
+    color: #212121;
+}
+
+.site-nav a.current{
+    color: var(--accent-color);
+}
+
+.conection a{
+    color:#757575 ;
+}
+
+.site-nav a:hover,
+.site-nav a:focus,
+.conection a:hover,
+.conection a:focus{
+    color:var(--accent-color);
+}
+
+/* Hero */
+
+.hero-title{
+    color: #ffffff;
+}
+
+.hero-button{
+    color: #ffffff;
+    background-color: var(--accent-color);
+}
+/* Section */
+.section-title{
+    color:var(--title-color);
+}
+
+/* Peculirities */
+.peculirities .title{
+    color: var(--title-color);
+}
+
+/* Team */
+.team .title{
+    color: var(--title-color);
+}
