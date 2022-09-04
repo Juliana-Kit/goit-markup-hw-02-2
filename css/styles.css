@@ -35,6 +35,11 @@ a{
 }
 
 .section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.2;
+    text-align: center;
+
     color: var(--title-color);
 }
 
@@ -47,7 +52,7 @@ a{
     line-height: 1.2;
 }
 
-.site-nav a{
+.site-nav-link{
     font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -59,14 +64,14 @@ a{
 }
 
 
-.site-nav a:hover,
-.site-nav a:focus,
-.conection a:hover,
-.conection a:focus{
+.site-nav-link:hover,
+.site-nav-link:focus,
+.conection-link:hover,
+.conection-link:focus{
     color:var(--accent-color);
 }
 
-.conection a {
+.conection-link{
     font-family: inherit;
     font-weight: 500;
     line-height: 1.14;
@@ -96,6 +101,7 @@ a{
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.06em;
+    cursor: pointer;
 
     color: #ffffff;
     background-color: var(--accent-color);
@@ -103,7 +109,7 @@ a{
 
 
 /* Peculirities */
-.peculirities .title{
+.peculirities-title{
     font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
@@ -112,33 +118,18 @@ a{
     color: var(--title-color);
 }
 
-.peculirities .text{
+.peculirities-text{
     line-height:1.71;
 
     color: var(--text-color);
     
 }
 
-/* Occupation */
-
-.occupation{
-    font-weight: 700;
-    font-size: 36px;
-    line-height:1.2;
-    text-align: center;    
-}
 
 /* Team */
 
+
 .team-title{
-    font-weight: 700;
-    font-size: 36px;
-    line-height:1.2;
-    text-align: center;
-
-}
-
-.team .title{
     font-weight: 500;
     font-size: 16px;
     line-height:1.2;
@@ -146,14 +137,16 @@ a{
     color: var(--title-color);
 }
 
-.profession{
-    font-weight: 400;
+.profession-text{
     font-size: 16px;
     line-height: 1.2;
 
     color: var(--text-color);
 }
 /* Footer */
+address{
+    font-style: inherit;
+}
 
 .page-footer{
     background-color: #2F303A;
@@ -173,4 +166,40 @@ a{
 
 .contact-link{
     color: var(--footer-text-color);
+}
+
+  /*             Portfolio              */
+.btn{
+    font-family:inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height:1.62;
+
+    letter-spacing: inherit;
+
+
+    color: #212121;
+    background-color:#F5F4FA;;
+}   
+
+.btn:hover,
+.btn:focus{
+    color: #ffffff;
+    background-color: var(--accent-color);
+}
+
+.title-project{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+
+    color: var(--title-color);
+}
+
+.text-project{
+    font-size: 16px;
+    line-height: 1.88;
+
+    color: var(--text-color);
 }
